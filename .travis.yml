@@ -26,7 +26,8 @@ deploy:
   - provider: releases
     api_key:
       secure: kr/Sevf93X8AAtlSHTgTZbY3T8PyzjRqCEvPj1NuIrXLdl1ohJzD946uClr6tE9qXpQjTWDDCxjl6hu7Y0Q+8AHOcbvrRVZQRiSUZ+z6FWBSTOGUHAdA9o3iEfKAbytPQhDB7QQ7Zhvu4XuIE0qlch5AYwFDUGs9EEWm4hH5kP6po5MrfR744xQ60uWPvfEyZLQ617wq0+IyS1cbY7DkL5GSlEfgKPPsgS4a5G5yc272Z3TDa3fl/KRgmiJqdtIl8Wosd7TGGXWxsqTxkAzC6I5lYvKJLn+ZqVGlvI/vlWvsp0vi/PUkWmXEfaianLauBrnAZZRRIN8vpB0L0SCV/C6BdEA+2XpCLaJ2DCoefwyjQES9tmgUU9JednI7bo0ItE5A/rF9pb64HRkPajFvihUsXYI41zcvWRius89282Ti2GkbYQr2krfbNds8/CVdbbPUwvcCs/q2jl1P1qz08lToeIh82U4aoF9bZTMLSBwH8el2pMQ7t3EOMzczhSr61XuEQug2flBKsvX7pGEM9VbvYdeRx9qJHbApQfD0H7vYhxtwml0GU4wuBEYJ4bx/WkBVhmgZfyBR11y3w8TPy8FTOeEGhPxBRsRHY5rCc7iHhBB3eRExWWGwPEMFY3Fyin4aIcwyqNTLnF2XDpA+f913zsjhXo/ntkeFRFEUoDo=
-    file: target/*.jar
+    file:
+      - './target/*.jar'
     skip_cleanup: true
     draft: true
     on:
